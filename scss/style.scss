@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+html,
+body {
+    font-family: "Quicksand", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.navbar-brand {
+    .title {
+        font-weight: 800;
+        color: var(--bs-blue);
+    }
+}
+.navbar-nav {
+    .nav-item {
+        font-weight: 600;
+        margin: 0 5px;
+
+        .nav-link {
+            position: relative;
+            transition: all 0.3s linear;
+
+            &.active {
+                color: var(--bs-blue);
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background: var(--bs-blue);
+                    width: 100%;
+                    height: 2px;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    bottom: 5px;
+                }
+            }
+            &:hover {
+                color: #3498db;
+                // color: var(--bs-indigo);
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    background: #3498db;
+                    // background: var(--bs-indigo);
+                    width: 100%;
+                    height: 2px;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    bottom: 5px;
+                }
+            }
+        }
+    }
+}
+.transfer-money,
+.transaction {
+    margin-top: 5rem !important;
+}
+.welcome {
+    margin-top: 5rem !important;
+    .container {
+        .row {
+            .display-3 {
+                font-size: 2.25rem;
+            }
+        }
+    }
+}
+.customers {
+    margin-top: 5.6rem !important;
+
+    .cust-row {
+        .card {
+            position: relative;
+            width: 30%;
+            cursor: pointer;
+            transition: all 0.2s linear;
+
+            &:hover {
+                border-color: var(--bs-cyan);
+                transform: scale(1.03, 1.03);
+                box-shadow: 0 1rem 2.5rem rgba(25, 32, 51, 0.35);
+
+                .card-footer {
+                    border-color: var(--bs-cyan);
+                }
+            }
+        }
+    }
+}
+.features {
+    padding-bottom: 6rem !important;
+    padding-top: 6rem !important;
+
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        position: relative;
+        z-index: 1;
+
+        .row {
+            .card {
+                position: relative;
+                margin: 0 10px 0;
+                padding: 0;
+                transition: all 0.2s linear;
+
+                &:hover {
+                    border-color: var(--bs-cyan);
+                    transform: scale(1.015, 1.015);
+                    box-shadow: 0 1rem 2.5rem rgba(25, 32, 51, 0.35);
+
+                    .card-footer {
+                        border-color: var(--bs-cyan);
+                    }
+                }
+
+                .card-img-top {
+                    width: auto;
+                    height: 35vh;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    .container {
+        .top {
+            text-decoration: none;
+            align-items: center;
+
+            &:hover {
+                color: var(--bs-indigo);
+            }
+
+            span {
+                display: inline-block;
+            }
+            .direct-up {
+                font-size: 24px;
+                margin-right: 8px;
+            }
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}

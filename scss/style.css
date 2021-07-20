@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand .title {
+  font-weight: 800;
+  color: var(--bs-blue);
+}
+
+.navbar-nav .nav-item {
+  font-weight: 600;
+  margin: 0 5px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: var(--bs-blue);
+}
+
+.navbar-nav .nav-item .nav-link.active::after {
+  content: "";
+  position: absolute;
+  background: var(--bs-blue);
+  width: 100%;
+  height: 2px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 5px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #3498db;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  background: #3498db;
+  width: 100%;
+  height: 2px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  bottom: 5px;
+}
+
+.transfer-money,
+.transaction {
+  margin-top: 5rem !important;
+}
+
+.welcome {
+  margin-top: 5rem !important;
+}
+
+.welcome .container .row .display-3 {
+  font-size: 2.25rem;
+}
+
+.customers {
+  margin-top: 5.6rem !important;
+}
+
+.customers .cust-row .card {
+  position: relative;
+  width: 30%;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.customers .cust-row .card:hover {
+  border-color: var(--bs-cyan);
+  -webkit-transform: scale(1.03, 1.03);
+          transform: scale(1.03, 1.03);
+  -webkit-box-shadow: 0 1rem 2.5rem rgba(25, 32, 51, 0.35);
+          box-shadow: 0 1rem 2.5rem rgba(25, 32, 51, 0.35);
+}
+
+.customers .cust-row .card:hover .card-footer {
+  border-color: var(--bs-cyan);
+}
+
+.features {
+  padding-bottom: 6rem !important;
+  padding-top: 6rem !important;
+}
+
+.features .container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.features .container .row .card {
+  position: relative;
+  margin: 0 10px 0;
+  padding: 0;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.features .container .row .card:hover {
+  border-color: var(--bs-cyan);
+  -webkit-transform: scale(1.015, 1.015);
+          transform: scale(1.015, 1.015);
+  -webkit-box-shadow: 0 1rem 2.5rem rgba(25, 32, 51, 0.35);
+          box-shadow: 0 1rem 2.5rem rgba(25, 32, 51, 0.35);
+}
+
+.features .container .row .card:hover .card-footer {
+  border-color: var(--bs-cyan);
+}
+
+.features .container .row .card .card-img-top {
+  width: auto;
+  height: 35vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer .container .top {
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .top:hover {
+  color: var(--bs-indigo);
+}
+
+.footer .container .top span {
+  display: inline-block;
+}
+
+.footer .container .top .direct-up {
+  font-size: 24px;
+  margin-right: 8px;
+}
+/*# sourceMappingURL=style.css.map */
