@@ -9,10 +9,10 @@ Task 1 - Basic Banking System
 
 ## Stack Used
 * **Front-end**
-  * HTML.
-  * CSS & SCSS.
-  * Bootstrap.
-  * Javascript.
+  * HTML
+  * CSS & SCSS
+  * Bootstrap
+  * Javascript
 
 * **Back-end**
   * PHP
