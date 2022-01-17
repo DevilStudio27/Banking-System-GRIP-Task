@@ -19,3 +19,8 @@ Task 1 - Basic Banking System
 
 * **Database**
   * SQL
+
+## Youtube and Live Link
+* Youtube Video Link: https://youtu.be/R6JzsNWvc8g
+* Live Link: https://sparksindian.000webhostapp.com/
+* Youtube Channel Link: https://www.youtube.com/channel/UCSUYNxrqt3vTK4lO1pReoBw
